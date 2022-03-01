@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Googlebot
+User-agent: AdsBot-Google
+Disallow: /
+
+User-agent: *
+Allow: /
+Sitemap: http://127.0.0.1:5500/sitemap.xml

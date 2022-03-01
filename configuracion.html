@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="./quiensoy.html">Quien soy</a></li>
+                <li><a href="./ayuda.html">Información</a></li>
+                <span class="disable"><li><a href="./configuracion.html">Ajustes</a></li></span>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="./buscaminas.html"><button>Jugar!</button></a>
+    </header>
+    <div class="container">
+        <div class="portada">
+            <h1>Configuración</h1>
+        </div>
+    <main>
+    <section id="settings">
+        <form action="submit">
+            <fieldset>
+                <legend>Numero de bombas</legend>
+                <input type="number" name="numero_bombas" min="6" max="128">
+            </fieldset>
+            <fieldset>
+                <legend>Tiempo de juego</legend>
+                <input type="range" name="tiempo_juego" min="10px" max="720px">
+            </fieldset>
+            <fieldset>
+                <legend>Tamaño del tablero</legend>
+                <input type="radio" name="value1" id="value1">40 x 40
+                <input type="radio" name="value1" id="value1">60 x 60
+                <input type="radio" name="value1" id="value1">80 x 80
+                <input type="radio" name="value1" id="value1">100 x 100
+            </fieldset>
+        </form>
+    </section>
+</main>
+<footer>
+    <h5>footer</h5>
+</footer>
+</body>
+</html>

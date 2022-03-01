@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ayuda</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="./quiensoy.html">Quien soy</a></li>
+                <span class="disable"><li><a href="./ayuda.html">Información</a></li></span>
+                <li><a href="./configuracion.html">Ajustes</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="./buscaminas.html"><button>Jugar!</button></a>
+    </header>
+    <div class="container">
+        <div class="portada">
+            <h1>Información</h1>
+        </div>
+    <main>
+    <div class="contenido">
+        <section id="reglas_basicas">
+            <h3>Reglas de buscaminas</h3>
+            <p>El juego consiste en despejar todas las casillas de una pantalla que no oculten una mina. <br>
+                Algunas casillas tienen un número, este número indica las minas que son en todas las casillas
+                circundantes. <br>
+                Así, si una casilla tiene el número 3, significa que de las ocho casillas que hay alrededor <br>
+                (si no es en una esquina o borde) hay 3 con minas y 5 sin minas. Si se descubre una casilla sin número
+                <br>
+                indica que ninguna de las casillas vecinas tiene mina y estas se descubren automáticamente. <br>
+                Si se descubre una casilla con una mina se pierde la partida.</p>
+        </section>
+        <section id="observaciones">
+            <h3>Observaciones</h3>
+            <p>Se puede poner una marca en las casillas que el jugador piensa que hay minas para ayudar a descubrir la
+                que están cerca.</p>
+        </section>
+        <section id="video">
+            <iframe width="420" height="315" src="https://www.youtube.com/watch?v=DSoe-4F5c3I">
+            </iframe>
+
+        </section>
+    </div>
+    </main>
+    <footer>
+        <p>&copy; James Davies</p>
+    </footer>
+</body>
+
+</html>
